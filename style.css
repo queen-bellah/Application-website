@@ -1,0 +1,868 @@
+.list{
+    color: grey;
+  }
+  .navbar{
+     display: flex;
+     gap: 10%;
+  }
+  .login{
+     display: flex;
+     gap:25px;
+  }
+  body{
+     margin-left: 8%;
+  }
+  .feature{
+     color: black;
+  }
+  .first{
+     display: flex;
+  }
+  .improve{
+     margin-top: 12%;
+  }
+  .imp{
+     font-size: 280%;
+     color:navy;
+     font-weight: bold;
+  }
+  .charge{
+     color: red;
+     text-decoration: underline;
+  }
+  .bt{
+  background-color:#FBBCFA;
+  border: none;
+  width:85%;
+  border-radius: 14px;
+  }
+  .app{
+     background-color: navy;
+  }
+  .plus{
+     font-weight: bold;
+  }
+  .over{
+     text-align: center;
+     font-size: 135%;
+  }
+  .imagess{
+     display: flex;
+     margin-left: 12%;
+  }
+  .prod{
+     text-align: center;
+     font-size: 165%;
+  }
+  .product{
+     color: red;
+  }
+  .easy{
+     font-size: 210%;
+  }
+  .delivered{
+     color: navy;
+     text-align: center;
+  }
+  .overdelivered{
+     display: flex;
+     gap: 5%;
+     align-items: center;
+  }
+  .del{
+     color: navy;
+     text-align: center;
+     border: solid 1px palevioletred;
+     width: 25%;
+  }
+  .rates{
+     font-size: 123%;
+     font-weight: bold;
+  }
+  .dit{
+     color: red;
+     text-decoration: underline;
+  }
+  .ditio{
+     display: grid;
+     grid-template-columns: auto auto;
+     gap:1%;
+  }
+  .letus{
+     display: flex;
+     gap:10%;
+  }
+  .helping{
+     text-align: center;
+     font-size: 140%;
+  }
+  .customer{
+     color: red;
+     text-decoration: underline;
+  }
+  .know{
+     background-color: navy;
+  }
+  .interface{
+     display: flex;
+     gap: 10%;
+  }
+  .some{
+     font-size: 160%;
+     text-align: center;
+  }
+  .somewords{
+     color: red;
+     text-decoration: underline;
+  }
+  .people{
+     display: flex;
+     gap: 10%;
+  }
+  .edwin{
+     border: solid 1px palevioletred;
+     border-radius:4%;
+  }
+  .animeandwords{
+  display: flex;
+  
+  }
+  .wordss p{
+  font-size: 40px;
+  color: rgb(2, 2, 25);
+  text-align: left;
+  }
+  .footer{
+    display: flex;
+    background-color:blueviolet;
+    color: white;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .Copyright{
+    display: flex;
+    background-color:grey;
+    color: black;
+  }
+  
+  @media screen and (width:280px){
+    .navbar{
+      display: flex;
+      gap: 1px;
+      font-size: 9.8px;
+   }
+   body{
+    margin-left: 2%;
+  }
+   .first{
+    display: grid;
+  }
+  .imp{
+    font-size: 27px;
+    color:navy;
+    font-weight: bold;
+  }
+  .sentence{
+    font-size: 18px;
+  }
+  .first img{
+    width: 280px;
+  }
+  
+    .imagess{
+      display: grid;
+   }
+   .imagess img{
+    width: 150px;
+  }
+  .overdelivered{
+    display: grid;
+    
+  }
+  .del{
+    color: navy;
+    text-align: center;
+    border: solid 1px palevioletred;
+    width: 75%;
+  }
+  .letus{
+    display: grid;
+    gap:10%;
+  }
+  .letus img{
+  width: 250px;
+  }
+  .letus p{
+  font-size: 19px;
+  }
+  .interface{
+    display: grid;
+    gap: 10%;
+  }
+  .image3{
+    width: 280px;
+  }
+  .people {
+    display: grid;
+    gap: 10%;
+    width: 250px;
+  }
+  .woman1{
+   width: 80px; 
+  }
+  .woman22{
+    width: 80px; 
+   }
+   .people p{
+    font-size: 21px;
+   }
+   .animeandwords{
+    display: grid;
+    }
+    .animeandwords img{
+      width: 280px;
+    }
+    .footer{
+      display: flex;
+      background-color:blueviolet;
+      color: white;
+      justify-content: space-evenly;
+      text-align: center;
+      width: 300px;
+      height: 380px;
+    }
+    .Copyright{
+      display: flex;
+      background-color:grey;
+      color: black;
+      width: 300px;
+      height: 80px;
+    }
+  }
+  
+  @media screen and (width:360px){
+    .navbar{
+      display: flex;
+      gap: 1px;
+      font-size: 9.8px;
+   }
+   body{
+    margin-left: 2%;
+  }
+   .first{
+    display: grid;
+  }
+  .imp{
+    font-size: 27px;
+    color:navy;
+    font-weight: bold;
+  }
+  .sentence{
+    font-size: 18px;
+  }
+  .first img{
+    width: 280px;
+  }
+  
+    .imagess{
+      display: grid;
+   }
+   .imagess img{
+    width: 150px;
+  }
+  .overdelivered{
+    display: grid;
+    
+  }
+  .del{
+    color: navy;
+    text-align: center;
+    border: solid 1px palevioletred;
+    width: 75%;
+  }
+  .letus{
+    display: grid;
+    gap:10%;
+  }
+  .letus img{
+  width: 250px;
+  }
+  .letus p{
+  font-size: 19px;
+  }
+  .interface{
+    display: grid;
+    gap: 10%;
+  }
+  .image3{
+    width: 280px;
+  }
+  .people {
+    display: grid;
+    gap: 10%;
+    width: 250px;
+  }
+  .woman1{
+   width: 80px; 
+  }
+  .woman22{
+    width: 80px; 
+   }
+   .people p{
+    font-size: 21px;
+   }
+   .animeandwords{
+    display: grid;
+    }
+    .animeandwords img{
+      width: 280px;
+    }
+  }
+  
+  @media screen and (min-width:375px) and (max-width:435px){
+    .navbar{
+      display: flex;
+      gap: 1px;
+      font-size: 9.8px;
+   }
+   .first{
+    display: grid;
+  }
+  .imp{
+    font-size: 27px;
+    color:navy;
+    font-weight: bold;
+  }
+  .sentence{
+    font-size: 18px;
+  }
+  .first img{
+    width: 280px;
+  }
+  
+    .imagess{
+      display: grid;
+   }
+   .imagess img{
+    width: 150px;
+  }
+  .overdelivered{
+    display: grid;
+    
+  }
+  .del{
+    color: navy;
+    text-align: center;
+    border: solid 1px palevioletred;
+    width: 75%;
+  }
+  .letus{
+    display: grid;
+    gap:10%;
+  }
+  .letus img{
+  width: 250px;
+  }
+  .letus p{
+  font-size: 19px;
+  }
+  .interface{
+    display: grid;
+    gap: 10%;
+  }
+  .image3{
+    width: 280px;
+  }
+  .people {
+    display: grid;
+    gap: 10%;
+    width: 250px;
+  }
+  .woman1{
+   width: 80px; 
+  }
+  .woman22{
+    width: 80px; 
+   }
+   .people p{
+    font-size: 21px;
+   }
+   .animeandwords{
+    display: grid;
+    }
+    .animeandwords img{
+      width: 280px;
+    }
+  }
+  @media screen and (width:540px){
+    .navbar{
+      display: flex;
+      gap: 1px;
+      font-size: 12px;
+   }
+   .first{
+    display: grid;
+  }
+  .imp{
+    font-size: 27px;
+    color:navy;
+    font-weight: bold;
+  }
+  .sentence{
+    font-size: 18px;
+  }
+  .first img{
+    width: 280px;
+  }
+  
+    .imagess{
+      display: grid;
+   }
+   .imagess img{
+    width: 150px;
+  }
+  .overdelivered{
+    display: grid;
+    
+  }
+  .del{
+    color: navy;
+    text-align: center;
+    border: solid 1px palevioletred;
+    width: 75%;
+  }
+  .letus{
+    display: grid;
+    gap:10%;
+  }
+  .letus img{
+  width: 250px;
+  }
+  .letus p{
+  font-size: 19px;
+  }
+  .interface{
+    display: grid;
+    gap: 10%;
+  }
+  .image3{
+    width: 280px;
+  }
+  .people {
+    display: grid;
+    gap: 10%;
+    width: 400px;
+  }
+  .woman1{
+   width: 80px; 
+  }
+  .woman22{
+    width: 80px; 
+   }
+   .wordss p{
+    font-size: 28px;
+   }
+   .people p{
+    font-size: 21px;
+   }
+   .animeandwords{
+    display: grid;
+    }
+    .animeandwords img{
+      width: 280px;
+    }
+    .footer{
+      display: flex;
+      background-color:blueviolet;
+      color: white;
+      justify-content: space-evenly;
+      text-align: center;
+      width: 400px;
+    }
+    .Copyright{
+      display: flex;
+      background-color:grey;
+      color: black;
+      width: 400px;
+    }
+  }
+  
+  @media screen and (width:768px){
+    .navbar{
+      display: flex;
+      gap: 1px;
+      font-size: 12px;
+   }
+   .first{
+    display: grid;
+  }
+  .imp{
+    font-size: 27px;
+    color:navy;
+    font-weight: bold;
+  }
+  .sentence{
+    font-size: 18px;
+  }
+  .first img{
+    width: 500px;
+  }
+  
+    .imagess{
+      display: grid;
+   }
+   .imagess img{
+    width: 300px;
+  }
+  .overdelivered{
+    display: grid;
+    
+  }
+  .overdelivered img{
+    width: 200px;
+  }
+  .del{
+    color: navy;
+    text-align: center;
+    border: solid 1px palevioletred;
+    width: 75%;
+  }
+  .letus{
+    display: grid;
+    gap:10%;
+  }
+  .letus img{
+  width: 250px;
+  }
+  .letus p{
+  font-size: 25px;
+  }
+  .interface{
+    display: grid;
+    gap: 10%;
+  }
+  .image3{
+    width: 500px;
+  }
+  .people {
+    display: grid;
+    gap: 10%;
+  }
+  .woman1{
+   width: 80px; 
+  }
+  .woman22{
+    width: 80px; 
+   }
+   .people p{
+    font-size: 28px;
+   }
+   .animeandwords{
+    display: grid;
+    }
+    .animeandwords img{
+      width: 500px;
+    }
+  }
+  @media screen and (width:820px){
+    .navbar{
+      display: flex;
+      gap: 1px;
+      font-size: 12px;
+   }
+   .first{
+    display: grid;
+  }
+  .imp{
+    font-size: 27px;
+    color:navy;
+    font-weight: bold;
+  }
+  .sentence{
+    font-size: 18px;
+  }
+  .first img{
+    width: 650px;
+  }
+  
+    .imagess{
+      display: grid;
+   }
+   .imagess img{
+    width: 300px;
+  }
+  .overdelivered{
+    display: grid;
+    
+  }
+  .overdelivered img{
+    width: 200px;
+  }
+  .del{
+    color: navy;
+    text-align: center;
+    border: solid 1px palevioletred;
+    width: 75%;
+  }
+  .letus{
+    display: grid;
+    gap:10%;
+  }
+  .letus img{
+  width: 450px;
+  }
+  .letus p{
+  font-size: 25px;
+  }
+  .interface{
+    display: grid;
+    gap: 10%;
+  }
+  .know{
+    width: 110px;
+    height: 40px;
+  }
+  .interface p{
+    font-size: 23px;
+  }
+  .image3{
+    width: 500px;
+  }
+  .people {
+    display: grid;
+    gap: 10%;
+  }
+  .woman1{
+   width: 80px; 
+  }
+  .woman22{
+    width: 80px; 
+   }
+   .people p{
+    font-size: 28px;
+   }
+   .animeandwords{
+    display: grid;
+    }
+    .animeandwords img{
+      width: 500px;
+    }
+    .mobile{
+      width: 90px;
+    }
+  }
+  
+  @media screen and (width:912px){
+    .navbar{
+      display: flex;
+      gap: 1px;
+      font-size: 21px;
+   }
+   .first{
+    display: grid;
+  }
+  .imp{
+    font-size: 27px;
+    color:navy;
+    font-weight: bold;
+  }
+  .sentence{
+    font-size: 18px;
+  }
+  .first img{
+    width: 680px;
+  }
+  .first p{
+    font-size: 30px;
+  }
+  
+    .imagess{
+      display: grid;
+   }
+   .imagess img{
+    width: 300px;
+  }
+  .overdelivered{
+    display: grid;
+    
+  }
+  .overdelivered img{
+    width: 200px;
+  }
+  .del{
+    color: navy;
+    text-align: center;
+    border: solid 1px palevioletred;
+    width: 75%;
+  }
+  .letus{
+    display: grid;
+    gap:10%;
+  }
+  .letus img{
+  width: 600px;
+  }
+  .letus p{
+  font-size: 30px;
+  }
+  .interface{
+    display: grid;
+    gap: 10%;
+  }
+  .know{
+    width: 110px;
+    height: 40px;
+  }
+  .interface p{
+    font-size: 23px;
+  }
+  .image3{
+    width: 600px;
+  }
+  .people {
+    display: grid;
+    gap: 10%;
+    width: 400px;
+  }
+  .woman1{
+   width: 140px; 
+  }
+  .woman22{
+    width: 140px; 
+   }
+   .people p{
+    font-size: 30px;
+   }
+   .animeandwords{
+    display: grid;
+    }
+    .animeandwords img{
+      width: 700px;
+    }
+    .mobile{
+      width: 90px;
+    }
+    .footer{
+      display: flex;
+      background-color:blueviolet;
+      color: white;
+      justify-content: space-evenly;
+      text-align: center;
+      width: 680px;
+    }
+    .Copyright{
+      display: flex;
+      background-color:grey;
+      color: black;
+      width: 680px;
+    }
+  }
+  
+  
+  @media screen and (width:1024px){
+    .navbar{
+      display: flex;
+      gap: 1px;
+      font-size: 21px;
+   }
+   .first{
+    display: grid;
+  }
+  .imp{
+    font-size: 27px;
+    color:navy;
+    font-weight: bold;
+  }
+  .sentence{
+    font-size: 18px;
+  }
+  .first img{
+    width: 680px;
+  }
+  .first p{
+    font-size: 30px;
+  }
+  
+    .imagess{
+      display: grid;
+   }
+   .imagess img{
+    width: 300px;
+  }
+  .overdelivered{
+    display: grid;
+    
+  }
+  .overdelivered img{
+    width: 200px;
+  }
+  .del{
+    color: navy;
+    text-align: center;
+    border: solid 1px palevioletred;
+    width: 75%;
+  }
+  .letus{
+    display: grid;
+    gap:10%;
+  }
+  .letus img{
+  width: 600px;
+  }
+  .letus p{
+  font-size: 30px;
+  }
+  .interface{
+    display: grid;
+    gap: 10%;
+  }
+  .know{
+    width: 110px;
+    height: 40px;
+  }
+  .interface p{
+    font-size: 23px;
+  }
+  .image3{
+    width: 600px;
+  }
+  .people {
+    display: grid;
+    gap: 10%;
+    width: 400px;
+  }
+  .woman1{
+   width: 140px; 
+  }
+  .woman22{
+    width: 140px; 
+   }
+   .people p{
+    font-size: 30px;
+   }
+   .animeandwords{
+    display: grid;
+    }
+    .animeandwords img{
+      width: 700px;
+    }
+    .mobile{
+      width: 90px;
+    }
+    .footer{
+      display: flex;
+      background-color:blueviolet;
+      color: white;
+      justify-content: space-evenly;
+      text-align: center;
+      width: 680px;
+    }
+    .Copyright{
+      display: flex;
+      background-color:grey;
+      color: black;
+      width: 680px;
+    }
+  }
+  
+  
